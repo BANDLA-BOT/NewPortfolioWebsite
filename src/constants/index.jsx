@@ -2,8 +2,6 @@ import {
   FaXTwitter,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaDiscord,
   FaInstagram,
 } from "react-icons/fa6";
 
@@ -30,8 +28,7 @@ export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
-  { label: "Award", href: "#award" },
-  { label: "Testimonials", href: "#testimonials" },
+  { label: "Blogs", href: "#blogs" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -111,7 +108,7 @@ export const SKILLS = [
   },
 ];
 
-export const TESTIMONIALS = [
+export const BLOGS = [
   {
     name: "Emily Johnson",
     title: "CEO, Tech Innovators",
@@ -144,15 +141,7 @@ export const TESTIMONIALS = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/1311_dom?igsh=MWptbDl3NXdzOGV5OA%3D%3D&utm_source=qr",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
@@ -160,11 +149,11 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/BANDLA-BOT",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/bandla-guru-prasad-608b09204",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
