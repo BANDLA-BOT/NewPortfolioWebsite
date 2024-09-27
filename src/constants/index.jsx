@@ -20,10 +20,6 @@ import image1 from "../assets/project1.jpeg";
 import image2 from "../assets/project2.jpeg";
 import image3 from "../assets/project3.jpeg";
 import image4 from "../assets/project4.jpeg";
-import image5 from "../assets/project5.jpeg";
-import image6 from "../assets/project6.jpeg";
-import image7 from "../assets/project7.jpeg";
-import image8 from "../assets/project8.jpeg";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -53,49 +49,27 @@ export const ABOUT = {
 
 export const PROJECTS = [
   {
-    title: "E-commerce Platform",
+    title: "MedEase",
     subtitle:
-      "A full-stack e-commerce platform built with React, Node.js, and MongoDB.",
+      "Built a full-stack healthcare platform providing online doctor consultations, AI health chat, centralized records, personalized tips, and appointment booking for efficient health management.",
     image: image1,
   },
   {
-    title: "Social Media App",
+    title: "Authentication and Authorization",
     subtitle:
-      "A social media application developed using Next.js and Firebase.",
+      "Developed a secure MERN stack app with Firebase authentication, JWT, and Redux Toolkit integration.",
     image: image2,
   },
   {
-    title: "Project Management Tool",
-    subtitle: "A project management tool built with Django and PostgreSQL.",
+    title: "Personal Portfolio website",
+    subtitle: "Developed the front-end portfolio website, highlighting skills, projects, and experiences.",
     image: image3,
   },
   {
-    title: "Personal Portfolio",
+    title: "Responsive SaaS Landing Page",
     subtitle:
-      "A personal portfolio website designed with HTML, CSS, and JavaScript.",
+      "Designed and developed a responsive landing page.”",
     image: image4,
-  },
-  {
-    title: "Weather Dashboard",
-    subtitle:
-      "A weather dashboard application built with Vue.js and Express.js.",
-    image: image5,
-  },
-  {
-    title: "Blog Platform",
-    subtitle:
-      "A blogging platform developed with Ruby on Rails and PostgreSQL.",
-    image: image6,
-  },
-  {
-    title: "Fitness Tracker",
-    subtitle: "A fitness tracking app created using Flutter and Firebase.",
-    image: image7,
-  },
-  {
-    title: "Recipe Finder",
-    subtitle: "A recipe finder application developed with Angular and Node.js.",
-    image: image8,
   },
 ];
 
@@ -136,13 +110,6 @@ export const SKILLS = [
     // experience: "2+ years",
   },
 ];
-
-// export const ACHIEVEMENT = {
-//   title: "International Hackaton - Tokyo",
-//   award: "Gold Medalist - 2024",
-//   description:
-//     "Winner of the 2024 Algo coding representing the University of Oxford. This achievement showcases exceptional problem-solving skills and dedication. The event provided a platform to innovate and collaborate with the brightest minds, resulting in a prestigious accolade.",
-// };
 
 export const TESTIMONIALS = [
   {

@@ -29,9 +29,10 @@ const Navbar = () => {
         <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg bg-black/20 py-3 backdrop-blur-lg lg:flex">
           <div className="flex justify-between gap-6">
             <div>
-              <a href="#">
+              {/* <a href="#">
                 <img src={logo} width={90} />
-              </a>
+              </a> */}
+              <h1 className="tracking-widest text-2xl">GURU PRASAD</h1>
             </div>
             <div>
               <ul className="flex items-center gap-4">
