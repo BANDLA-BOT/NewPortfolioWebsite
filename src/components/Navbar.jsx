@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
 import { NAVIGATION_LINKS } from "../constants/index";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
@@ -53,21 +53,23 @@ const Navbar = () => {
         </div>
         {/* Mobile Menu */}
 
-        <div className="rounded-lg backdrop-blur-md lg:hidden">
+        <div className="rounded-lg backdrop-blur-md lg:hidden p-4">
             <div className="flex items-center justify-between">
                 <div>
-                    <a href="#" >
+                    {/* <a href="#" >
                         <img src={logo} width={90} alt="" className="m-2"/>
-                    </a>
+                    </a> */}
+              <h1 className="tracking-widest text-2xl text-black">GURU PRASAD</h1>
+
                 </div>
                 <div className="flex items-center">
                     <button className="focus:outline-none lg:hidden" onClick={toggleMobileMenu}>
-                        {isMobileMenuOpen ? (<FaTimes className="m-2 h-6 w-5"/>):(<FaBars className="m-2 h-6 w-5"/>)}
+                        {isMobileMenuOpen ? (<FaTimes className="m-2 h-6 w-5 text-black"/>):(<FaBars className="m-2 h-6 w-5 text-black"/>)}
                     </button>
                 </div>
             </div>
                 {isMobileMenuOpen && (
-                    <ul className="ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md">
+                    <ul className="ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md text-black border border-neutral-400 rounded-lg p-6 shadow-lg">
                         {NAVIGATION_LINKS.map((item, index)=>(
                             <li key={index}>
                                 <a href={item.href} className="block w-full text-xl font-semibold" onClick={(e)=>{handleLinkClick(e,item.href)}}>
